@@ -1,10 +1,15 @@
 # flask-convert-base64-to-photo
 
 # Parameters
+
 It is a POST call
+
     pic1base64 : base64 format of uploaded image 1
+    
     pic1ID : id of pic 1
+    
     pic2base64 : base64 format of uploaded image 2
+    
     pic2ID : id of pic 2
 
 ## How To Run

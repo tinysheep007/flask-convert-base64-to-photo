@@ -28,6 +28,12 @@ Finally start the web server:
 $ (env) python app.py
 ```
 
+4. To stop the virtualenv(when you are done testing) you can type:
+
+```
+$ deactivate
+```
+
 This server will start on port 5000 by default. You can change this in `app.py` by changing the following line to this:
 
 ```python

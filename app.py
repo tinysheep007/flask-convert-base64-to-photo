@@ -31,7 +31,7 @@ def picToBase64():
     image = open("pic1.jpg","wb")
     image.write(r)
     image.close()
-
+    
     r = base64.b64decode((pic2base64))
     image = open("pic2.jpg","wb")
     image.write(r)
